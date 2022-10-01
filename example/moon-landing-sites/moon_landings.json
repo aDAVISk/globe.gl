@@ -38,7 +38,7 @@
     "program": "Apollo",
     "agency": "NASA",
     "depth": 0,
-    "type":"sharrow",
+    "type":"shallow",
     "date": "1971-7-30",
     "url": "https://en.wikipedia.org/wiki/Apollo_15"
   },
@@ -49,7 +49,7 @@
     "program": "Apollo",
     "agency": "NASA",
     "depth": 0,
-    "type":"sharrow",
+    "type":"shallow",
     "date": "1972-4-21",
     "url": "https://en.wikipedia.org/wiki/Apollo_16"
   },
@@ -60,7 +60,7 @@
     "program": "Apollo",
     "agency": "NASA",
     "depth": 0,
-    "type":"sharrow",
+    "type":"shallow",
     "date": "1972-12-11",
     "url": "https://en.wikipedia.org/wiki/Apollo_17"
   },
