@@ -6,50 +6,50 @@ Globe.GL
 [![NPM Downloads][npm-downloads-img]][npm-downloads-url]
 
 <p align="center">
-   <a href="//vasturiano.github.io/globe.gl/example/world-population/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/world-population/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/airline-routes/us-international-outbound.html"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/airline-routes/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/countries-population/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/countries-population/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/submarine-cables/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/submarine-cables/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/hexed-polygons/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/hexed-polygons/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/world-cities/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/world-cities/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/satellites/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/satellites/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/moon-landing-sites/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/moon-landing-sites/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/world-population/"><img width="48%" src="https://adavisk.github.io/globe.gl/example/world-population/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/airline-routes/us-international-outbound.html"><img width="48%" src="https://adavisk.github.io/globe.gl/example/airline-routes/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/countries-population/"><img width="48%" src="https://adavisk.github.io/globe.gl/example/countries-population/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/submarine-cables/"><img width="48%" src="https://adavisk.github.io/globe.gl/example/submarine-cables/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/hexed-polygons/"><img width="48%" src="https://adavisk.github.io/globe.gl/example/hexed-polygons/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/world-cities/"><img width="48%" src="https://adavisk.github.io/globe.gl/example/world-cities/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/satellites/"><img width="48%" src="https://adavisk.github.io/globe.gl/example/satellites/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/moon-landing-sites/"><img width="48%" src="https://adavisk.github.io/globe.gl/example/moon-landing-sites/preview.png"></a>
 </p>
 
 A web component to represent data visualization layers on a 3-dimensional globe in a spherical projection.
-This library is a convenience wrapper around the [three-globe](https://github.com/vasturiano/three-globe) plugin, and uses [ThreeJS](https://github.com/mrdoob/three.js/)/WebGL for 3D rendering.
+This library is a convenience wrapper around the [three-globe](https://github.com/adavisk/three-globe) plugin, and uses [ThreeJS](https://github.com/mrdoob/three.js/)/WebGL for 3D rendering.
 
-See also the [AR version](https://github.com/vasturiano/globe-ar).
+See also the [AR version](https://github.com/adavisk/globe-ar).
 
-And check out the [React bindings](https://github.com/vasturiano/react-globe.gl).
+And check out the [React bindings](https://github.com/adavisk/react-globe.gl).
 
 ## Examples
 
-* [Basic](https://vasturiano.github.io/globe.gl/example/basic/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/basic/index.html))
-* [Arc Links](https://vasturiano.github.io/globe.gl/example/random-arcs/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/random-arcs/index.html))
-* [Highlight links](https://vasturiano.github.io/globe.gl/example/airline-routes/highlight-links.html) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/airline-routes/highlight-links.html))
-* [Choropleth](https://vasturiano.github.io/globe.gl/example/choropleth-countries/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/choropleth-countries/index.html))
-* [Elevated Polygons](https://vasturiano.github.io/globe.gl/example/countries-population/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/countries-population/index.html))
-* [Hollow Globe](https://vasturiano.github.io/globe.gl/example/hollow-globe/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/hollow-globe/index.html))
-* [Path Lines](https://vasturiano.github.io/globe.gl/example/random-paths/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/random-paths/index.html))
-* [Map Labels](https://vasturiano.github.io/globe.gl/example/world-cities/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/world-cities/index.html))
-* [HTML Markers](https://vasturiano.github.io/globe.gl/example/html-markers/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/html-markers/index.html))
-* [Hexed Country Polygons](https://vasturiano.github.io/globe.gl/example/hexed-polygons/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/hexed-polygons/index.html))
-* [Tiles](https://vasturiano.github.io/globe.gl/example/tiles/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/tiles/index.html))
-* [Ripple Rings](https://vasturiano.github.io/globe.gl/example/random-rings/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/random-rings/index.html))
-* [Emit Arcs on Click](https://vasturiano.github.io/globe.gl/example/emit-arcs-on-click/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/emit-arcs-on-click/index.html))
-* [Clouds](https://vasturiano.github.io/globe.gl/example/clouds/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/clouds/index.html))
-* [Solar Terminator](https://vasturiano.github.io/globe.gl/example/solar-terminator/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/solar-terminator/index.html))
-* [Custom Globe Styling](https://vasturiano.github.io/globe.gl/example/custom-globe-styling/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/custom-globe-styling/index.html))
-* [Custom Layer](https://vasturiano.github.io/globe.gl/example/custom-layer/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/custom-layer/index.html))
-* [World Population](https://vasturiano.github.io/globe.gl/example/world-population/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/world-population/index.html))
-* [Recent Earthquakes](https://vasturiano.github.io/globe.gl/example/earthquakes/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/earthquakes/index.html))
-* [World Volcanoes](https://vasturiano.github.io/globe.gl/example/volcanoes/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/volcanoes/index.html))
-* [US outbound international airline routes](https://vasturiano.github.io/globe.gl/example/airline-routes/us-international-outbound.html) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/airline-routes/us-international-outbound.html))
-* [Earth Shield](https://vasturiano.github.io/globe.gl/example/earth-shield/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/earth-shield/index.html))
-* [Satellites](https://vasturiano.github.io/globe.gl/example/satellites/index.html) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/satellites/index.html))
-* [Submarine Cables](https://vasturiano.github.io/globe.gl/example/submarine-cables/index.html) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/submarine-cables/index.html))
-* [Moon Landing Sites](https://vasturiano.github.io/globe.gl/example/moon-landing-sites/index.html) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/moon-landing-sites/index.html))
+* [Basic](https://adavisk.github.io/globe.gl/example/basic/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/basic/index.html))
+* [Arc Links](https://adavisk.github.io/globe.gl/example/random-arcs/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/random-arcs/index.html))
+* [Highlight links](https://adavisk.github.io/globe.gl/example/airline-routes/highlight-links.html) ([source](https://github.com/adavisk/globe.gl/blob/master/example/airline-routes/highlight-links.html))
+* [Choropleth](https://adavisk.github.io/globe.gl/example/choropleth-countries/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/choropleth-countries/index.html))
+* [Elevated Polygons](https://adavisk.github.io/globe.gl/example/countries-population/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/countries-population/index.html))
+* [Hollow Globe](https://adavisk.github.io/globe.gl/example/hollow-globe/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/hollow-globe/index.html))
+* [Path Lines](https://adavisk.github.io/globe.gl/example/random-paths/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/random-paths/index.html))
+* [Map Labels](https://adavisk.github.io/globe.gl/example/world-cities/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/world-cities/index.html))
+* [HTML Markers](https://adavisk.github.io/globe.gl/example/html-markers/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/html-markers/index.html))
+* [Hexed Country Polygons](https://adavisk.github.io/globe.gl/example/hexed-polygons/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/hexed-polygons/index.html))
+* [Tiles](https://adavisk.github.io/globe.gl/example/tiles/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/tiles/index.html))
+* [Ripple Rings](https://adavisk.github.io/globe.gl/example/random-rings/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/random-rings/index.html))
+* [Emit Arcs on Click](https://adavisk.github.io/globe.gl/example/emit-arcs-on-click/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/emit-arcs-on-click/index.html))
+* [Clouds](https://adavisk.github.io/globe.gl/example/clouds/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/clouds/index.html))
+* [Solar Terminator](https://adavisk.github.io/globe.gl/example/solar-terminator/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/solar-terminator/index.html))
+* [Custom Globe Styling](https://adavisk.github.io/globe.gl/example/custom-globe-styling/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/custom-globe-styling/index.html))
+* [Custom Layer](https://adavisk.github.io/globe.gl/example/custom-layer/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/custom-layer/index.html))
+* [World Population](https://adavisk.github.io/globe.gl/example/world-population/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/world-population/index.html))
+* [Recent Earthquakes](https://adavisk.github.io/globe.gl/example/earthquakes/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/earthquakes/index.html))
+* [World Volcanoes](https://adavisk.github.io/globe.gl/example/volcanoes/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/volcanoes/index.html))
+* [US outbound international airline routes](https://adavisk.github.io/globe.gl/example/airline-routes/us-international-outbound.html) ([source](https://github.com/adavisk/globe.gl/blob/master/example/airline-routes/us-international-outbound.html))
+* [Earth Shield](https://adavisk.github.io/globe.gl/example/earth-shield/) ([source](https://github.com/adavisk/globe.gl/blob/master/example/earth-shield/index.html))
+* [Satellites](https://adavisk.github.io/globe.gl/example/satellites/index.html) ([source](https://github.com/adavisk/globe.gl/blob/master/example/satellites/index.html))
+* [Submarine Cables](https://adavisk.github.io/globe.gl/example/submarine-cables/index.html) ([source](https://github.com/adavisk/globe.gl/blob/master/example/submarine-cables/index.html))
+* [Moon Landing Sites](https://adavisk.github.io/globe.gl/example/moon-landing-sites/index.html) ([source](https://github.com/adavisk/globe.gl/blob/master/example/moon-landing-sites/index.html))
 
 ## Quick start
 
@@ -124,7 +124,7 @@ Globe({ configOptions })(<domElement>)
 | <b>showAtmosphere</b>([<i>boolean</i>]) | Getter/setter for whether to show a bright halo surrounding the globe, representing the atmosphere. | `true` |
 | <b>atmosphereColor</b>([<i>str</i>]) | Getter/setter for the color of the atmosphere. | `lightskyblue` |
 | <b>atmosphereAltitude</b>([<i>str</i>]) | Getter/setter for the max altitude of the atmosphere, in terms of globe radius units. | 0.15 |
-| <b>globeMaterial</b>([<i>material</i>]) | Getter/setter of the ThreeJS material used to wrap the globe. Can be used for more advanced styling of the globe, like in [this example](https://github.com/vasturiano/globe.gl/blob/master/example/custom-globe-styling/index.html). | [MeshPhongMaterial](https://threejs.org/docs/#api/en/materials/MeshPhongMaterial) |
+| <b>globeMaterial</b>([<i>material</i>]) | Getter/setter of the ThreeJS material used to wrap the globe. Can be used for more advanced styling of the globe, like in [this example](https://github.com/adavisk/globe.gl/blob/master/example/custom-globe-styling/index.html). | [MeshPhongMaterial](https://threejs.org/docs/#api/en/materials/MeshPhongMaterial) |
 | <b>onGlobeReady</b>(<i>fn</i>) | Callback function to invoke immediately after the globe has been initialized and visible on the scene. | - |
 | <b>onGlobeClick</b>(<i>fn</i>) | Callback function for (left-button) clicks on the globe. The clicked globe coordinates and the event object are included as arguments: `onGlobeClick({ lat, lng }, event)`. | - |
 | <b>onGlobeRightClick</b>(<i>fn</i>) | Callback function for right-clicks on the globe. The clicked globe coordinates and the event object are included as arguments: `onGlobeRightClick({ lat, lng }, event)`. | - |
@@ -132,7 +132,7 @@ Globe({ configOptions })(<domElement>)
 ### Points Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/globe.gl/example/basic/"><img width="70%" src="https://vasturiano.github.io/globe.gl/example/basic/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/basic/"><img width="70%" src="https://adavisk.github.io/globe.gl/example/basic/preview.png"></a>
 </p>
 
 | Method | Description | Default |
@@ -154,7 +154,7 @@ Globe({ configOptions })(<domElement>)
 ### Arcs Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/globe.gl/example/random-arcs/"><img width="70%" src="https://vasturiano.github.io/globe.gl/example/random-arcs/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/random-arcs/"><img width="70%" src="https://adavisk.github.io/globe.gl/example/random-arcs/preview.png"></a>
 </p>
 
 | Method | Description | Default |
@@ -183,7 +183,7 @@ Globe({ configOptions })(<domElement>)
 ### Polygons Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/globe.gl/example/choropleth-countries/"><img width="70%" src="https://vasturiano.github.io/globe.gl/example/choropleth-countries/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/choropleth-countries/"><img width="70%" src="https://adavisk.github.io/globe.gl/example/choropleth-countries/preview.png"></a>
 </p>
 
 | Method | Description | Default |
@@ -206,7 +206,7 @@ Globe({ configOptions })(<domElement>)
 ### Paths Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/globe.gl/example/random-paths/"><img width="70%" src="https://vasturiano.github.io/globe.gl/example/random-paths/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/random-paths/"><img width="70%" src="https://adavisk.github.io/globe.gl/example/random-paths/preview.png"></a>
 </p>
 
 | Method | Description | Default |
@@ -219,7 +219,7 @@ Globe({ configOptions })(<domElement>)
 | <b>pathPointAlt</b>([<i>num</i>, <i>str</i> or <i>fn</i>]) | Path point object accessor function, attribute or a numeric constant for the point altitude, in terms of globe radius units (`0` = 0 altitude (ground), `1` = globe radius). | 0.001 |
 | <b>pathResolution</b>([<i>num</i>]) | Getter/setter for the path's angular resolution, in lat/lng degrees. If the ground distance (excluding altitude) between two adjacent path points is larger than this value, the line segment will be interpolated in order to approximate the curvature of the sphere surface. Lower values yield more perfectly curved lines, at the cost of performance. | 2 |
 | <b>pathColor</b>([<i>str</i>, <i>[str, ...]</i> or <i>fn</i>]) | Path object accessor function or attribute for the line's color. Also supports color gradients by passing an array of colors, or a color interpolator function. Transparent colors are not supported in Fat Lines with set width. | `() => '#ffffaa'` |
-| <b>pathStroke</b>([<i>num</i>, <i>str</i> or <i>fn</i>]) | Path object accessor function, attribute or a numeric constant for the line's diameter, in angular degrees. A value of `null` or `undefined` will render a [ThreeJS Line](https://threejs.org/docs/#api/objects/Line) whose width is constant (`1px`) regardless of the camera distance. Otherwise, a [FatLine](https://github.com/vasturiano/three-fatline) is used. | `null` |
+| <b>pathStroke</b>([<i>num</i>, <i>str</i> or <i>fn</i>]) | Path object accessor function, attribute or a numeric constant for the line's diameter, in angular degrees. A value of `null` or `undefined` will render a [ThreeJS Line](https://threejs.org/docs/#api/objects/Line) whose width is constant (`1px`) regardless of the camera distance. Otherwise, a [FatLine](https://github.com/adavisk/three-fatline) is used. | `null` |
 | <b>pathDashLength</b>([<i>num</i>, <i>str</i> or <i>fn</i>]) | Path object accessor function, attribute or a numeric constant for the length of the dashed segments in the path line, in terms of relative length of the whole line (`1` = full line length). | 1 |
 | <b>pathDashGap</b>([<i>num</i>, <i>str</i> or <i>fn</i>]) | Path object accessor function, attribute or a numeric constant for the length of the gap between dash segments, in terms of relative line length. | 0 |
 | <b>pathDashInitialGap</b>([<i>num</i>, <i>str</i> or <i>fn</i>]) | Path object accessor function, attribute or a numeric constant for the length of the initial gap before the first dash segment, in terms of relative line length. | 0 |
@@ -232,7 +232,7 @@ Globe({ configOptions })(<domElement>)
 ### Hex Bin Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/globe.gl/example/earthquakes/"><img width="70%" src="https://vasturiano.github.io/globe.gl/example/earthquakes/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/earthquakes/"><img width="70%" src="https://adavisk.github.io/globe.gl/example/earthquakes/preview.png"></a>
 </p>
 
 | Method | Description | Default |
@@ -257,7 +257,7 @@ Globe({ configOptions })(<domElement>)
 ### Hexed Polygons Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/globe.gl/example/hexed-polygons/"><img width="70%" src="https://vasturiano.github.io/globe.gl/example/hexed-polygons/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/hexed-polygons/"><img width="70%" src="https://adavisk.github.io/globe.gl/example/hexed-polygons/preview.png"></a>
 </p>
 
 | Method | Description | Default |
@@ -278,7 +278,7 @@ Globe({ configOptions })(<domElement>)
 ### Tiles Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/globe.gl/example/tiles/"><img width="70%" src="https://vasturiano.github.io/globe.gl/example/tiles/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/tiles/"><img width="70%" src="https://adavisk.github.io/globe.gl/example/tiles/preview.png"></a>
 </p>
 
 | Method | Description | Default |
@@ -301,7 +301,7 @@ Globe({ configOptions })(<domElement>)
 ### Rings Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/globe.gl/example/random-rings/"><img width="70%" src="https://vasturiano.github.io/globe.gl/example/random-rings/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/random-rings/"><img width="70%" src="https://adavisk.github.io/globe.gl/example/random-rings/preview.png"></a>
 </p>
 
 | Method | Description | Default |
@@ -319,7 +319,7 @@ Globe({ configOptions })(<domElement>)
 ### Labels Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/globe.gl/example/world-cities/"><img width="70%" src="https://vasturiano.github.io/globe.gl/example/world-cities/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/world-cities/"><img width="70%" src="https://adavisk.github.io/globe.gl/example/world-cities/preview.png"></a>
 </p>
 
 | Method | Description | Default |
@@ -346,7 +346,7 @@ Globe({ configOptions })(<domElement>)
 ### HTML Elements Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/globe.gl/example/html-markers/"><img width="70%" src="https://vasturiano.github.io/globe.gl/example/html-markers/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/html-markers/"><img width="70%" src="https://adavisk.github.io/globe.gl/example/html-markers/preview.png"></a>
 </p>
 
 | Method | Description | Default |
@@ -361,7 +361,7 @@ Globe({ configOptions })(<domElement>)
 ### 3D Objects Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/globe.gl/example/satellites/"><img width="70%" src="https://vasturiano.github.io/globe.gl/example/satellites/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/satellites/"><img width="70%" src="https://adavisk.github.io/globe.gl/example/satellites/preview.png"></a>
 </p>
 
 | Method | Description | Default |
@@ -379,7 +379,7 @@ Globe({ configOptions })(<domElement>)
 ### Custom Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/globe.gl/example/custom-layer/"><img width="70%" src="https://vasturiano.github.io/globe.gl/example/custom-layer/preview.png"></a>
+   <a href="//adavisk.github.io/globe.gl/example/custom-layer/"><img width="70%" src="https://adavisk.github.io/globe.gl/example/custom-layer/preview.png"></a>
 </p>
 
 | Method | Description | Default |
