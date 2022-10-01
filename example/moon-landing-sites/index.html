@@ -30,7 +30,7 @@
     .labelColor(d => colorScale(d.agency))
     .labelLabel(d => `
         <div><b>${d.label}</b></div>
-        <div>${d.agency} - ${d.program} Program</div>
+        <div>${d.agency} - <i>${d.depth}</i> km</div>
         <div>Landing on <i>${new Date(d.date).toLocaleDateString()}</i></div>
       `)
     .onLabelClick(d => window.open(d.url, '_blank'))
