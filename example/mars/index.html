@@ -42,7 +42,7 @@
     //moon.labelsData(landingSites);
 
   fetch('./mars.csv').then(res => res.text())
-      .then(csv => d3.csvParse(csv, ({ Name, lat, lng}) => ({ lat: +lat, lng: +lng, Name: Name })))
+      .then(csv => d3.csvParse(csv, ({ Name, lat, lng}) => ({ Name: Name, lat: +lat, lng: +lng })))
       .then(data => moon.labelsData(data));
 
 </script>
