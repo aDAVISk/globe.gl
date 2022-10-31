@@ -26,13 +26,13 @@
     //.backgroundImageUrl('https://mimi3377.github.io/mars/mar0kuu2.jpg')
     .showGraticules(true)
     .showAtmosphere(false) // moon has no atmosphere
-    .labelText('name')
+    .labelText('label')
     .labelSize(5.0)
     .labelDotRadius(2.0)
     //.labelDotOrientation(d => labelsTopOrientation.has(d.label) ? 'top' : 'bottom')
     //.labelColor(d => colorScale(d.agency))//agencyの違いによって色が変わる
     .labelLabel(d => `
-        <div><b><font size=3>{d.name}</font></b></div>
+        <div><b><font size=3>{d.label}</font></b></div>
      `)
     //.onLabelClick(d => window.open(d.url, '_blank'))//ラベルをクリックしたらURLに飛ぶ
     (elem);
