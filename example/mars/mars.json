@@ -1,1 +1,22 @@
-[{"name":"Olympus Mons","lat":18.65,"lng":226.2},{"name":"Arsia Mons","lat":8.4,"lng":39.91},{"name":"Ascraeus Mons","lat":11.92,"lng":255.92},{"name":"Pavonis Mons","lat":1.48,"lng":247.04}]
+[
+  {
+    "label":"Olympus Mons",
+    "lat":18.65,
+    "lng":226.2
+  },
+  {
+    "label":"Arsia Mons",
+    "lat":8.4,
+    "lng":39.91
+  },
+  {
+    "label":"Ascraeus Mons",
+    "lat":11.92,
+    "lng":255.92
+  },
+  {
+    "label":"Pavonis Mons",
+    "lat":1.48,
+    "lng":247.04
+  }
+]
